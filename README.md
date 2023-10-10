@@ -25,7 +25,7 @@ To use this clone website, you can:
 1. Clone or download this repository.
 2. Open the `index.html` file in your web browser.
 
-## Contributing
+## Contributing.
 
 We welcome contributions from the open-source community. If you'd like to contribute to this project, please follow these steps:
 
