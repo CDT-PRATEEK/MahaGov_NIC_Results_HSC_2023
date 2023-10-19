@@ -1,227 +1,181 @@
-/* Space out content a bit */
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
-    font-weight: 400; 
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  /* Everything but the jumbotron gets side spacing for mobile first views */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  
-  /* Custom page header */
-  .header {
-    border-bottom: 1px solid #00a5db;
-  }
-  /* Make the masthead heading the same height as the navigation */
-  
-  .logo{
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  .logo img{ max-width: 15%; height: 100%;}
-  
-  .logo h1{
-    font-family: "Georgia", Serif;
-    font-weight: 400;
-    font-size: 2em;
-    padding-bottom: 19px;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    display: inline-block;
-  }
-  .logo h3{
-      font-size:1.142em;
-      font-weight: 800;
-  }
-  .logo h5{
-      font-size:1.285em;
-      
-  }
-  
-  .header nav{
-    background-color: transparent;
-    border: none;
-    text-align: center;
-  }
-  
-  #topnav{
-    margin:0 auto;
-    float: none;
-  }
-  #topnavinner #topnavul{
-    float: none;
-    display: inline-block;
-    text-align: center;
-  }
-  .navbar-header{
-    text-align: center;
-  }
-  .navbar{margin-bottom: 0px;}
-  .navbar-header .navbar-toggle{float: none;}
-  .active > a{
-    background-color: transparent;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .jumbotron h1{
-    font-size: 3.4285em;
-  }
-  .jumbotron .lead{
-    font-size: 2.14285em;
-  }
-  
-  .resultviewbtn{
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  /* Custom page footer */
-  
-  .footer{
-    margin-top: 20px;
-    padding:15px;
-    color: #777;
-    border-top: 1px solid #e5e5e5;
-    background-color: #f3f3f3;
-    text-align: center;
-  }
-  
-  .btb{
-    position: relative;
-    z-index: 1;
-    text-align: justify;
-    margin-bottom: 20px;
-  }
-  .btb img{
-    float: left;
-  }
-  .btb p{
-    float: right;
-  }
-  
-  .container-narrow > hr {
-    margin: 30px 0;
-  }
-  
-  /* Main marketing message and sign up button */
-  .jumbotron {
-    text-align: center;
-    border-bottom: 1px solid #e5e5e5;
-  }
-  .jumbotron .btn {
-    padding: 14px 24px;
-    font-size: 21px;
-  }
-  
-  /* Supporting marketing content */
-  .marketing {
-    margin: 40px 0;
-  }
-  .marketing h3{
-    text-align: center;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-    font-weight: 200;
-    text-transform: uppercase;
-  }
-  .marketing p + h4 {
-    margin-top: 28px;
-  }
-  
-  /* Responsive: Portrait tablets and up */
-  @media screen and (min-width: 768px) {
-    .container {
-      max-width: 730px;
-    }
-    /* Remove the padding we set earlier */
-    .header,
-    .marketing {
-      padding-right: 0;
-      padding-left: 0;
-    }
-    
-    .footer{
-        padding:10px;
-    }
-    /* Space out the masthead */
-    .header {
-      margin-bottom: 30px;
-    }
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-      border-bottom: 0;
-    }
-  
-    .navbar-nav>li{
-      margin-right: 30px;
-    }
-  }
-  
-  /*Tripad wrote this/ Tripad.im / @_Tripad*/
-  /*XS Screens */
-  
-  
-  @media screen and (max-width: 767px) { 
-    .container {
-      min-width: 320px;
-    }  
-    .logo{
-      padding-bottom: 5px;
-      text-align: center;
-    }
-  
-  div#printlogo img{
-   max-width:100%;
-  }
-    .logo h5{
-      font-size: 1em;
-    }
-    .logo h3{
-       font-size: 0.92em;
-       font-weight: 800;
-    }
-      .btb p {
-          float: none;
-          font-size: 12px;
-          text-align: center;
-      }  
-    .jumbotron h1{
-      font-size: 1.8em;
-    }
-    .jumbotron .lead{
-      font-size: 1.14285em;
-    }
-  
-  }
-  
-  
-  
-  @media  print and (max-width: 767px){
-      #printlogo{
-          text-align:center;
-          display:block!important;
-      }
-      .btb p {
-          float: none;
-          font-size: 12px;
-          text-align: center;
-      }  
-      
-  }
-  
-  @media print{
-    a[href]:after {
-      content: none !important;
-    }
-  }
-.error-outline {
-    outline: 2px solid red;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; 
 }
+
+header {
+  background-color: rgb(0, 0, 150); 
+  color: #fff; 
+  padding: 10px;
+  text-align: center;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; 
+}
+
+header img {
+  margin-right: 10px; 
+}
+
+.blue-line {
+    border: none;
+    height: 10px; 
+    background-color: rgb(0, 0, 150);
+    margin: 0;
+}
+
+.container {
+  width: 1350px; 
+  margin: 0 auto; 
+  padding: 0px; 
+  margin-top: 60px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  border-top: 0px;
+  margin-top: 34px;
+  background-color: rgb(227, 245, 255);
+}
+
+nav {
+  background-color: #77c4ff; 
+  color: #000000; 
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 20px; 
+  border-right: 1px dotted #000000; 
+  font-weight: 200;
+}
+
+
+li:last-child a {
+  border-right: none;
+}
+
+.school-logo {
+  width: 200px; 
+  height: auto; 
+}
+.logo-container {
+  display: flex;
+  align-items: center; 
+}
+
+.school-name {
+  margin-left: 20px; 
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 35px; 
+  font-weight: bold; 
+  color: #333;
+}
+
+.content {
+  margin: 20px 0; 
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  text-align: justify; 
+  overflow: auto;
+}
+
+.content-photo {
+  max-width: 530px; 
+  margin-right: -14px; 
+  padding: 30px;
+}
+
+.content-message {
+  font-size: 18px; 
+  line-height: 1.4; 
+  color: #333; 
+  margin-right: 31px;
+  font-family: 'Sometype Mono', monospace;
+  line-height: 1.7;
+}
+.content p {
+  margin-top: 48px; 
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #77c4ff;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.stack-container {
+  width: 210px; 
+  padding: 0px; 
+  margin-top: 60px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  border-top: 0px;
+  margin-top: 34px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 30px;
+}
+
+
+.stack-container .links a {
+  display: block;
+  margin: 10px 0; 
+  text-decoration: none;
+  color: #333; 
+  font-weight: bold; 
+  border-bottom: 1px dotted #000;
+}
+
+
+footer {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+  height: 28px;
+}
+
+.footer-content {
+  font-size: 18px;
+}
+
+

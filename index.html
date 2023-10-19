@@ -2,59 +2,118 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HSC Examination March- 2023 RESULT :: MAHARASHTRA STATE BOARD OF SECONDARY AND HIGHER SECONDARY EDUCATION, PUNE</title>
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-    <style>
-        .error-outline {
-            outline: 2px solid red;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+    <header>
+        <hr class="blue-line">
+    </header>
+
+
+
     <div class="container">
-        <div class="header">
-            <div class="col-sm-2 hidden-xs"><img src="mahastateedu.gif"></div>
-            <div class="logo col-lg-10 col-md-10 col-sm-10">
-                <h5>MAHARASHTRA STATE BOARD OF SECONDARY AND HIGHER SECONDARY EDUCATION, PUNE</h5>
-                <h3>HSC Examination March- 2023 RESULT</h3>
+        <div class="logo-container">
+            <img src="Assets/logo-maharashtra.png" alt="School Logo" class="school-logo">
+            <span class="school-name">Maharashta State Board of<br>
+                Secondary & Higher Secondary Education, Pune</span>
+        </div>
+        <hr style="border: none; height: 5px; background-color: rgb(0, 0, 150); margin: 0; margin-bottom: -15px;">
+
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="home.html">HOME</a>
+                </li>
+                <li class="dropdown">
+                    <a href="about.html">ABOUT US</a>
+                    <div class="dropdown-content">
+                        <a href="ABOUT MAHARASHTRA">ABOUT MAHARASHTRA</a>
+                        <a href="STATE EXECUTIVES">STATE EXECUTIVES</a>
+                        <a href="DUTIES OF STATE BOARD">DUTIES OF STATE BOARD</a>
+                        <a href="COMMITTIES">COMMITTIES</a>
+                        <a href="RULES AND REGULATIONS">RULES AND REGULATIONS</a>
+                        <a href="RIGHT TO INFORMATION ACT -2005">RIGHT TO INFORMATION ACT -2005</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="divisionalBoard.html">DIVISIONAL BOARD</a>
+                    <div class="dropdown-content">
+                        <a href="sublink5.html">DUTIES OF DIVISIONAL BOARD</a>
+                        <a href="sublink6.html">PUNE DIVISIONAL BOARD</a>
+                        <a href="sublink6.html">NAGPUR DIVISIONAL BOARD</a>
+                        <a href="sublink6.html">AURANGABAD DIVISONAL BOARD</a>
+                        <a href="sublink6.html">MUMBAI DIVISIONAL BOARD</a>
+                        <a href="sublink6.html">KOLHAPUR DIVISIONAL BOARD</a>
+                        <a href="sublink6.html">AMRAVATI DIVISIONAL BOARD</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="subject&syllabus.html">SUBJECT & SYLLABUS</a>
+                    <div class="dropdown-content">
+                        <a href="sublink7.html">HSC GENERAL SUBJECT CODE AND SYLLABUS</a>
+                        <a href="sublink8.html">HSC VOCATIONAL SUBJECT CODE AND SYLLABUS</a>
+                        <a href="sublink8.html">SSC GENERAL SUBJECT CODE AND SYLLABUS</a>
+                        <a href="sublink8.html">IX GENERAL SUBJECT CODE AND SYLLABUS</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="schoolColleges.html">SCHOOL/COLLEGES</a>
+                    <div class="dropdown-content">
+                        <a href="sublink9.html">RULESS OF AFFILIATION</a>
+                        <a href="sublink10.html">QUALIFICATION FOR PAPER SETTER/TRANSLATOR</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="shikshanShankarman.html">SHIKSHAN SHANKARMAN</a>
+                </li>
+                <li class="dropdown">
+                    <a href="contact.html">CONTACT US</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <img src="Assets/mainbig.jpg" alt="Your Photo" class="content-photo">
+            <div class="content-message">
+                <p>The Maharashtra State Board of Secondary & Higher Secondary Education, Pune 411004 is an Autonomous
+                    Body established under the provisions of the Maharashtra Act No. 41 of 1965. The Maharashtra State
+                    Board of Secondary & Higher Secondary Education, conducts the HSC and SSC Examinations in the state
+                    of Maharashtra through its nine Divisional Boards located at Pune, Mumbai, Aurangabad, Nasik,
+                    Kolhapur, Amravati, Latur, Nagpur and Ratnagiri. The Board conducts examination twice a year and the
+                    number of students appearing for the main examination is around 14 Lacs for HSC and 17 Lac’s SSC,
+                    for the supplementary examination around 6 Lacs students are expected HSC and SSC together. There
+                    are about 21000 schools (SSC) and 7000 (HSC) Higher Sec. Schools / Jr. colleges in the entire state.
+                </p>
             </div>
         </div>
-        <div class="jumbotron">
-            <form class="form-horizontal resultform" role="form">
-                <div class="form-group">
-                    <label for="rollno" class="col-sm-4 control-label">Roll Number:*</label>
-                    <div class="col-sm-8">
-                        <input id="rollno" name="regno" size="7" maxlength="7" value="" class="form-control" placeholder="Enter Valid Roll Number">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="mname" class="col-sm-4 control-label">Mother's First Name:*</label>
-                    <div class="col-sm-8">
-                        <input name="mname" size="10" maxlength="20" value="" class="form-control" placeholder="Mother's First Name as given on your admit card/form">
-                        <div>Enter XXX if mother's name not mentioned in form</div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-12 resultviewbtn">
-                        <input type="button" class="btn btn-large btn-primary" value="View Result" onclick="validateRollNumber()">
-                    </div>
-                </div>
-            </form>
+        <div class="stack-container">
+            <div class="links">
+                <a href="#">DOWNLOADS</a>
+                <a href="#">NOTIFICATIONS</a>
+                <a href="#">STATISTICS</a>
+                <a href="#">SPEACIAL STUDIES</a>
+                <a href="#">PUBLICATIONS</a>
+                <a href="#">NEWS & EVENTS</a>
+                <a href="#">QUICK LINKS</a>
+                <a href="#">EVALUATION</a>
+            </div>
         </div>
-        <div class="footer col-xs-12">
-            Designed, Developed and Hosted By National Informatics Centre (NIC)<br>
-            Data Provided By <font face="Times New Roman" size="2"><br>Maharashtra State Board of Secondary and Higher Secondary Education, Pune</font>
-        </div>
+
+        <footer>
+            <div class="footer-content">
+                <a href="#">CONTACT US</a> | <a href="#">DISCLAIMER</a> | <a href="#">RTI</a> | <a href="#">12.1</a>
+            </div>
+        </footer>
+
     </div>
 
-    <script src="jquery.min.js.download"></script>
-    <script src="bootstrap.min.js.download"></script>
-    <script src="main.js"></script>
+
 </body>
 
 </html>
